@@ -1,6 +1,32 @@
 body {
   font-family: Helvetica;
+  background-color: rgb(67, 33, 96);
+  margin: 20px;
 }
-h2 {
+h1 {
+  color: rgb(251, 80, 80);
+  font-weight: normal;
+  font-size: 60px;
+}
+h1 span {
 	font-weight: 100;
+  font-size: 60px;
+  color: rgb(255, 180, 180);
 }
+footer {
+  position: absolute;
+  bottom: 0;
+}
+footer p {
+  color: white;
+  font-size: 16px;
+}
+ a {
+   text-decoration: none;
+   color: inherit;
+ }
+
+ a:hover {
+   text-decoration: underline;
+   color: rgb(251, 80, 80);
+ }
